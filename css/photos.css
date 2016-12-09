@@ -1,0 +1,58 @@
+#photos {
+    width: 1350px;
+    height: 300px;
+    margin-top: 160px;
+    margin-bottom: 60px;
+}
+
+.photos {
+    width: 290px;
+    height: 290px;
+    margin: 5px 5px 5px 5px;
+    float: left;
+}
+
+.photosover {
+    width: 290px;
+    height: 290px;
+    margin: 5px 5px 5px 5px;
+    float: left;
+}
+
+#ziluolan {
+    background-image: url(../images/ziluolan.jpg);
+    background-size: cover;
+}
+
+#moli {
+    background-image: url(../images/moli.jpg);
+    background-size: cover;
+}
+
+#zhizihua {
+    background-image: url(../images/zhizihua.jpg);
+    background-size: cover;
+}
+
+#liuyuexue {
+    background-image: url(../images/liuyuexue.jpg);
+    background-size: cover;
+}
+
+#left {
+    width: 600px;
+    height: 600px;
+    float: left;
+}
+
+#right {
+    width: 600px;
+    height: 600px;
+    float: right;
+/*    background-image: url(../images/flower2.jpg);*/
+}
+
+body{
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+}

@@ -5,6 +5,7 @@
     <title>主页</title>
     <link rel="stylesheet" href="css/title.css" type="text/css">
     <link rel="stylesheet" href="css/menu.css" type="text/css">
+    <link rel="stylesheet" href="css/photos.css" type="text/css">
 </head>
 <body>
     <div id="title">
@@ -21,7 +22,27 @@
         <a href=""><div id="cn" class="item" onmouseover="onMouseOverCN()" onmouseout="onMouseOutCN()">Chinese Narsissus</div></a>
         <a href=""><div id="hl" class="item" onmouseover="onMouseOverHL()" onmouseout="onMouseOutHL()">Hindu Lotus</div></a>
     </div>
+    <div id="photos">
+        <div id="ziluolan" class="photos" onmouseover="onMouseOverZLL()" onmouseout="onMouseOutZLL()"></div>
+        <div id="moli" class="photos" onmouseover="onMouseOverML()" onmouseout="onMouseOutML()"></div>
+        <div id="zhizihua" class="photos" onmouseover="onMouseOverZZH()" onmouseout="onMouseOutZZH()"></div>
+        <div id="liuyuexue" class="photos" onmouseover="onMouseOverLYX()" onmouseout="onMouseOutLYX()"></div>
+    </div>
+
+    <div id="left" class="left">
+        <img  src="images/flower1.jpeg" style="position:absolute;top:628px;" >
+        <img id="mohuleft" src="images/mohu.png" style="position:absolute;top:628px;" onmouseover="onMouseOverLeft()" onmouseout="onMouseOutLeft()">
+    </div>
+    
+    <div id="right" class="right">
+        <img  src="images/flower2.jpg" style="position:absolute;top:628px;left:740px;" >
+        <img id="mohuright" src="images/mohu.png" style="position:absolute;top:628px;left:740px;" onmouseover="onMouseOverRight()" onmouseout="onMouseOutRight()">
+    </div>
+    <div id="left">
+    </div>
     <script src="js/title.js"></script>
     <script src="js/menu.js"></script>
+    <script src="jquery/jquery.min.js"></script>
+    <script src="js/photos.js"></script>
 </body>
 </html>
