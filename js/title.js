@@ -12,9 +12,12 @@ document.getElementById("log").className="nav";
 }
 function onMouseOverFlower(){
     document.getElementById("flower").className="navover";
+    var menu = document.getElementById("menu");
+    menu.style.display = "block";
 }
 function onMouseOutFlower(){
 document.getElementById("flower").className="nav";
+        menu.style.display = "none";
 }
 function onMouseOverAbout(){
     document.getElementById("about").className="navover";

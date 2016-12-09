@@ -1,0 +1,27 @@
+#menu {
+    height: auto;
+    width: 200px;
+    float: right;
+    margin-right: 252px;
+    display: none;
+}
+
+.item {
+    text-align: center;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 22px;
+    color: #ffffff;
+    background-image: url(../images/title_bg.jpg);
+}
+
+.itemover {
+    text-align: center;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 22px;
+    color: #61ffd4;
+    background-image: url(../images/titlehover_bg.jpg);
+}
